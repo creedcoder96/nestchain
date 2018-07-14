@@ -1,63 +1,83 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './bella.jpg';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="#">Why NestChain?</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
 
-          <div class="collapse navbar-collapse" id="navbarColor02">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Kick Off <span class="sr-only">(current)</span></a>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a className="navbar-brand" href="#">Why NestChain?</a>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarColor02">
+            <ul className="navbar-nav mr-auto">
+              <li className="nav-item active">
+                <a className="nav-link" href="#">Kick Off <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Features</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Become a Vendor</a>
+              <li classNameName="nav-item">
+                <a className="nav-link" href="#">Become a Vendor</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">WhitePaper</a>
+              <li className="nav-item">
+                <a className="nav-link" href="#">WhitePaper</a>
               </li>
             </ul>
-
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="cake,venue...etc"/>
-              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Look For</button>
+            <form className="form-inline my-2 my-lg-0">
+              <input className="form-control mr-sm-2" type="text" placeholder="cake,venue...etc"/>
+              <button className="btn btn-secondary my-2 my-sm-0" type="submit">Look For</button>
             </form>
           </div>
         </nav>
+
         <div className="row">
-          <div className="col-sm-4">
-            <ul class="nav nav-tabs">
-              <li class="nav-item">
-                <a class="nav-link active show" data-toggle="tab" href="#home">Birthday</a>
+          <div className="col-sm-6">
+            <ul className="nav nav-tabs">
+              <li className="nav-item">
+                <a className="nav-link active show" data-toggle="tab" href="#bbb">Bakes By Bella</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active show" data-toggle="tab" href="#profile">Concert</a>
+              <li className="nav-item">
+                <a className="nav-link show" data-toggle="tab" href="#profile">Angel Cupcakes</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active show" href="#">Conference</a>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Cake It</a>
               </li>
-              <li class="nav=-item">
-                <a class="nav-link active show" href="#">Meet-up</a>
+              <li className="nav=-item">
+                <a className="nav-link" href="#">Fat Panda</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Peppers</a>
               </li>
             </ul>
-          </div>
-          <div className="col-sm-2">
-            <h1>category wise gigs (3gigs here go)</h1>
+            <div id="myTabContent" class="tab-content">
+              <div className="tab-pane fade" id="bbb">
+                <p>
+                Bella’s (Bakes By Bella) 🇱🇰
+                Café & Cakery 
+                FOLLOW #weddingsbybella & #birthdayswithbella for our creations 
+                OPEN: TUE-SUN: 9am-11pm
+                🚧Closed on Monday
+                Delivery 🛵: Quickee & Foodie
+                youtu.be/RwbAqMeEf_A
+                </p>
+              </div>
+              <div className="tab-pane fade" id="profile">
+                <p>
+                  lol ne
+                </p>
+              </div>
+            </div>
           </div>
           <div className="col-sm-4">
-            <h1>Leader-board comes here</h1>
+            <legend>LeaderBoards come here </legend>
           </div>
+
         </div>
+
       </div>
     );
   }
