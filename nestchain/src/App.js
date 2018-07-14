@@ -55,7 +55,6 @@ class App extends Component {
             </ul>
             <div id="myTabContent" class="tab-content">
               <div classe="tab-pane fade" id="bbb">
-                
                   <img src="https://instagram.fcmb3-1.fna.fbcdn.net/vp/01c6632c5cbd3335241e8f5e068ab48d/5BCBAFBB/t51.2885-19/s150x150/26872347_169252070528546_1965286728667234304_n.jpg" height="100" width="100" alter="BBB logo"/>
                   <h5>Bella’s (Bakes By Bella) 🇱🇰</h5>
                   <p class="text-muted" align="center">
@@ -68,8 +67,13 @@ class App extends Component {
                 </p>
               </div>
               <div class="tab-pane fade" id="cupcake">
-                <p>
-                  
+               <p class="text-muted" align="center">
+                  Café & Cakery <br/>
+                  FOLLOW #weddingsbybella & #birthdayswithbella for our creations <br/>
+                  OPEN: TUE-SUN: 9am-11pm<br/>
+                  🚧Closed on Monday<br/>
+                  Delivery 🛵: Quickee & Foodie<br/>
+                  <a href="youtu.be/RwbAqMeEf_A">youtu.be/RwbAqMeEf_A</a>
                 </p>
               </div>
             </div>
