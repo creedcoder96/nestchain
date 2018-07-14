@@ -37,10 +37,10 @@ class App extends Component {
         <div class="row">
           <div className="col-sm-6">
             <ul class="nav nav-tabs">
-              <li class="nav-item show active">
+              <li class="nav-item">
                 <a class="nav-link" data-toggle="tab" href="#bbb">Bakes By Bella</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item show active">
                 <a class="nav-link" data-toggle="tab" href="#cupcake">Angel Cupcakes</a>
               </li>
               <li class="nav-item">
@@ -66,14 +66,14 @@ class App extends Component {
                   <a href="youtu.be/RwbAqMeEf_A">youtu.be/RwbAqMeEf_A</a>
                 </p>
               </div>
-              <div class="tab-pane fade" id="cupcake">
-               <p class="text-muted" align="center">
-                  Café & Cakery <br/>
-                  FOLLOW #weddingsbybella & #birthdayswithbella for our creations <br/>
-                  OPEN: TUE-SUN: 9am-11pm<br/>
-                  🚧Closed on Monday<br/>
-                  Delivery 🛵: Quickee & Foodie<br/>
-                  <a href="youtu.be/RwbAqMeEf_A">youtu.be/RwbAqMeEf_A</a>
+              <div class="tab-pane fade" id="cupcake">             
+                <img src="https://instagram.fcmb3-1.fna.fbcdn.net/vp/21b007776241a1558d2c3de2e306a2e6/5BD587A9/t51.2885-19/s150x150/18162053_1714570668842601_4142874768812539904_a.jpg" height="100" width="100" alter="BBB logo"/>
+                <h5>Angel Cupcakes 🇱🇰</h5>
+                <p class="text-muted" align="center">
+                Amazing cupcakes....!<br/>
+                Dark chocolate topped with strawberries on the most softest and fluffiest cupcakes ever.!<br/>
+                56 Parliament Road, Pelawatte<br/>
+                0775735819 🍰☕️<br/>
                 </p>
               </div>
             </div>
