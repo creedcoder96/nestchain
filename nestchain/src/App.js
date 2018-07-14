@@ -34,40 +34,42 @@ class App extends Component {
           </div>
         </nav>
 
-        <div className="row">
+        <div class="row">
           <div className="col-sm-6">
-            <ul className="nav nav-tabs">
-              <li className="nav-item">
-                <a className="nav-link active show" data-toggle="tab" href="#bbb">Bakes By Bella</a>
+            <ul class="nav nav-tabs">
+              <li class="nav-item show active">
+                <a class="nav-link" data-toggle="tab" href="#bbb">Bakes By Bella</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link show" data-toggle="tab" href="#profile">Angel Cupcakes</a>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#cupcake">Angel Cupcakes</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Cake It</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cake It</a>
               </li>
-              <li className="nav=-item">
-                <a className="nav-link" href="#">Fat Panda</a>
+              <li class="nav=-item">
+                <a class="nav-link" href="#">Fat Panda</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Peppers</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Peppers</a>
               </li>
             </ul>
             <div id="myTabContent" class="tab-content">
-              <div className="tab-pane fade" id="bbb">
-                <p>
-                Bella’s (Bakes By Bella) 🇱🇰
-                Café & Cakery 
-                FOLLOW #weddingsbybella & #birthdayswithbella for our creations 
-                OPEN: TUE-SUN: 9am-11pm
-                🚧Closed on Monday
-                Delivery 🛵: Quickee & Foodie
-                youtu.be/RwbAqMeEf_A
+              <div classe="tab-pane fade" id="bbb">
+                
+                  <img src="https://instagram.fcmb3-1.fna.fbcdn.net/vp/01c6632c5cbd3335241e8f5e068ab48d/5BCBAFBB/t51.2885-19/s150x150/26872347_169252070528546_1965286728667234304_n.jpg" height="100" width="100" alter="BBB logo"/>
+                  <h5>Bella’s (Bakes By Bella) 🇱🇰</h5>
+                  <p class="text-muted" align="center">
+                  Café & Cakery <br/>
+                  FOLLOW #weddingsbybella & #birthdayswithbella for our creations <br/>
+                  OPEN: TUE-SUN: 9am-11pm<br/>
+                  🚧Closed on Monday<br/>
+                  Delivery 🛵: Quickee & Foodie<br/>
+                  <a href="youtu.be/RwbAqMeEf_A">youtu.be/RwbAqMeEf_A</a>
                 </p>
               </div>
-              <div className="tab-pane fade" id="profile">
+              <div class="tab-pane fade" id="cupcake">
                 <p>
-                  lol ne
+                  
                 </p>
               </div>
             </div>
